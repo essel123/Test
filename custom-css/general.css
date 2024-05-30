@@ -1,0 +1,65 @@
+*
+{
+    margin: 0;
+    padding: 0;
+
+    color: #313E51;
+    
+       
+    
+    
+  
+}
+
+body{
+        background-color: rgba(76, 175, 80, 0.4);
+}
+
+
+
+
+@media (min-width:1024px) {
+    .innerpage {
+            position: relative;
+            top: 20%;
+            left: auto;
+    
+        }
+        
+    
+    .page {
+            background-image: url("/public/pattern-background-desktop-light.svg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 40rem;
+    
+        }
+}
+
+@media (max-width:1023px) {
+
+    .page {
+        background-image: url("/public/pattern-background-tablet-light.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+         height: 50vh;
+        
+       
+
+    }
+}
+
+@media (max-width:618px) {
+
+    .page {
+        background-image: url("/public/pattern-background-mobile-light.svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50vh;
+       
+
+    }
+}
